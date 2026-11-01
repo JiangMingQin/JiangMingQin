@@ -8,7 +8,7 @@
 - **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** — 声明式 Python GUI 框架  
   为 CustomTkinter 设计的流式接口封装，内置主题系统与可扩展组件范式。
 
-- **节点式工作流引擎** — （开发中）
+- **节点式工作流引擎** —（开发中）
   Vue + NaiveUI + ECharts + Python/FastAPI，基于python的节点式工作流引擎，在约束下提供极高的自定义接口以兼容个性化场景。
 
 ---
