@@ -8,8 +8,8 @@
 - **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** — 声明式 Python GUI 框架  
   为 CustomTkinter 设计的流式接口封装，内置主题系统与可扩展组件范式。
 
-- **算法实验平台** — 可视化算法配置系统（开发中）  
-  Vue + NaiveUI + ECharts + Python/FastAPI，支持动态策略配置与热插拔算法模块。
+- **节点式工作流引擎** — （开发中）
+  Vue + NaiveUI + ECharts + Python/FastAPI，基于python的节点式工作流引擎，在约束下提供极高的自定义接口以兼容个性化场景。
 
 ---
 
@@ -48,7 +48,7 @@
 ![Godot](https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godotengine&logoColor=white)
 
 **其他**  
-Linux · FastAPI · Flask · Redis · Git · Houdini（基础）· ComfyUI
+Linux · FastAPI · Flask · Redis · Git · ComfyUI
 
 ---
 
