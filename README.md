@@ -14,7 +14,7 @@
 ---
 
 ### 🎨 UI / 前端
-- **[LoneTrail-Tab](https://github.com/JiangMingQin/LoneTrail-Tab)** — 浏览器新标签页扩展  
+- **[CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)** — 浏览器新标签页扩展  
   受《明日方舟》莱茵生命风格启发，实现轮盘导航（WASD/鼠标双模）、亮暗主题切换、快捷键自定义。
 
 ---
@@ -58,6 +58,3 @@ Linux · FastAPI · Flask · Redis · Git · ComfyUI
 - 💼 作品集：[jiangmingqin.github.io](https://jiangmingqin.github.io)（搭建中）
 - 💬 欢迎交流技术美术、工具开发或独立游戏相关话题
 
----
-
-*目前正在完善算法实验平台与 Unity 技术原型，计划秋招投递技术美术（工具/管线方向）。*
