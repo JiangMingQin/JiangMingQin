@@ -1,8 +1,6 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1e1e2e,100:3b6d11&height=170&section=header&text=MingQin%20J&fontSize=52&fontColor=cdd6f4&animation=fadeIn" />
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:eff1f5,100:c0dd97&height=170&section=header&text=MingQin%20J&fontSize=52&fontColor=4c4f69&animation=fadeIn" />
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:eff1f5,100:c0dd97&height=170&section=header&text=MingQin%20J&fontSize=52&fontColor=4c4f69&animation=fadeIn" alt="MingQin J" />
-</picture>
+<div align="center">
+  <img src="assets/header.svg" alt="MingQin J" width="100%" />
+</div>
 
 <div align="center">
 
