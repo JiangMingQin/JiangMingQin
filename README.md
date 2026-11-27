@@ -9,7 +9,6 @@
 Unity · Python · Blender · ComfyUI
 
 <img src="https://img.shields.io/badge/%E6%B1%82%E8%81%8C%E4%B8%AD-OPEN%20TO%20WORK-a6e3a1?style=flat-square&labelColor=1e1e2e" alt="Open to work" />
-<img src="https://img.shields.io/badge/%E5%AD%A6%E5%8E%86-%E6%95%B0%E5%AD%97%E5%AA%92%E4%BD%93%E4%B8%93%E4%B8%9A-89b4fa?style=flat-square&labelColor=1e1e2e" alt="Major" />
 <img src="https://img.shields.io/badge/%E5%9F%BA%E7%A1%80-%E5%85%AD%E5%B9%B4%E7%B4%A0%E6%8F%8F-f9e2af?style=flat-square&labelColor=1e1e2e" alt="Art foundation" />
 
 </div>
@@ -33,7 +32,7 @@ Unity · Python · Blender · ComfyUI
 
 #### [CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)
 
-浏览器新标签页扩展。重构信息架构，去掉搜索栏；左手轮盘导航（WASD / 鼠标双模），右手收藏夹与浏览器原生数据实时同步。
+浏览器新标签页扩展。从自己的高频行为出发：打开浏览器后最常做的动作是点书签，于是把收藏夹做成整个界面的中心，去掉搜索栏。左手轮盘导航（WASD / 鼠标双模）。
 
 `Chrome Extension` `JavaScript` `UI/UX`
 
@@ -64,7 +63,7 @@ Blender → Unity 的完整资产链路：Terrain 搭自然场景，FBX 参数�
 ## 现在在做什么
 
 - **节点式工作流引擎** — 打通问题类型与策略模块的联动，补历史记录与预设管理
-- **毕业设计：PS1 复古渲染管线** — 低多边形 + dithering + CRT 后处理，用 Unity Shader Graph 复刻
+- **PS1 复古渲染管线探索** — 低多边形 + dithering + CRT 后处理，用 Unity Shader Graph 复刻
 - **补渲染与 Shader** — HLSL 基础、Profiler / RenderDoc 排障
 
 ## 技术栈
