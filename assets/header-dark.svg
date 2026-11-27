@@ -23,8 +23,22 @@
 
   <rect width="1200" height="220" fill="url(#bg)"/>
 
-  <path d="M0 150 C150 100 250 190 400 150 C550 110 650 180 800 150 C950 120 1050 180 1200 140 L1200 220 L0 220 Z" fill="url(#waveBack)" opacity="0.25"/>
-  <path d="M0 174 C160 134 260 204 420 174 C580 144 680 198 840 174 C1000 150 1080 198 1200 168 L1200 220 L0 220 Z" fill="url(#waveFront)" opacity="0.8"/>
+  <path fill="url(#waveBack)" opacity="0.25">
+    <animate attributeName="d" dur="20s" repeatCount="indefinite" calcMode="spline"
+      keyTimes="0;0.333;0.667;1" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+      values="M0 150 Q200 195 400 155 T800 165 T1200 145 L1200 220 L0 220 Z;
+              M0 170 Q200 160 400 175 T800 150 T1200 165 L1200 220 L0 220 Z;
+              M0 185 Q200 130 400 180 T800 155 T1200 130 L1200 220 L0 220 Z;
+              M0 150 Q200 195 400 155 T800 165 T1200 145 L1200 220 L0 220 Z"/>
+  </path>
+  <path fill="url(#waveFront)" opacity="0.8">
+    <animate attributeName="d" dur="20s" repeatCount="indefinite" begin="-10s" calcMode="spline"
+      keyTimes="0;0.333;0.667;1" keySplines="0.2 0 0.2 1;0.2 0 0.2 1;0.2 0 0.2 1"
+      values="M0 168 Q200 200 400 172 T800 180 T1200 165 L1200 220 L0 220 Z;
+              M0 185 Q200 170 400 190 T800 165 T1200 178 L1200 220 L0 220 Z;
+              M0 198 Q200 145 400 195 T800 172 T1200 148 L1200 220 L0 220 Z;
+              M0 168 Q200 200 400 172 T800 180 T1200 165 L1200 220 L0 220 Z"/>
+  </path>
 
   <text x="600" y="112" text-anchor="middle" fill="url(#name)" font-family="'JetBrains Mono', Consolas, monospace" font-size="76" font-weight="700" letter-spacing="2">MingQin J</text>
 </svg>
