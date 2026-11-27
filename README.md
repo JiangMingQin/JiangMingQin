@@ -14,8 +14,6 @@ Python · Unity · Blender — do what I want
 
 </div>
 
----
-
 ## 👋 Focus
 
 - **程序化3D资产生成：** Blender复刻《绝区零》以太结晶场景资源
