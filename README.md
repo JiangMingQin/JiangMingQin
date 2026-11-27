@@ -29,8 +29,36 @@ Python · 智能算法 · Unity · Blender
 
 ### Open Source
 
-- **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** — 基于 CustomTkinter 的声明式封装。链式语法让控件属性直接出现在代码补全里，省掉反复翻文档；纵横容器借鉴 Web 的 flex 布局思路。先手搓原型，再交给 AI 改。 `Python` `CustomTkinter` `MIT`
-- **[CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)** — 从自己的高频行为出发：打开浏览器后最常做的是点书签，于是把收藏夹做成界面中心，去掉搜索栏。双栏布局 + 键盘导航 + 模糊搜索；用 **frecency 算法**做快速启动栏，常用站点自然浮现。自己持续用了近一年。 `JavaScript` `Chrome Extension` `UI/UX`
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### [LazyTkinter](https://github.com/JiangMingQin/LazyTkinter) <sub>v0.13.0 · MIT</sub>
+
+基于 CustomTkinter 的声明式 GUI 库，用 `Row` / `Column` / `ZStack` + `fit` / `fill` 取代手写 `grid` / `pack`，像搭积木一样排界面。
+
+链式 API + 统一值 API：`.id()` 后可在构建完成时通过 `app.config(类型).aim_id(名字)` 继续改属性，`app.read()` 直接读值。内置 Catppuccin / Gruvbox / Dracula / EVA02 主题与语义化颜色 token。
+
+定位是轻量工具与原型——只依赖 CustomTkinter，Python ≥ 3.10，Windows / Linux 全矩阵 CI。
+
+`Python` `CustomTkinter` `Declarative UI`
+
+</td>
+<td width="50%" valign="top">
+
+#### [CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab) <sub>v1.2.0 · MIT</sub>
+
+粗野主义科幻终端风格的浏览器新标签页扩展。起因是发现自己打开浏览器后高频操作是点书签，于是把收藏夹做成界面中心。
+
+WASD / 方向键层级浏览书签，`/` 递归实时搜索，**frecency**（频率 × 时间衰减）排序的快捷栏把常用站点自然顶到前面。双主题（暗色星空 / 亮色等高线）、3D 透视模式，快捷键映射与快捷栏数量可调。
+
+原生 ES Modules，Manifest V3，无构建步骤、无第三方运行时依赖。自己持续用了近一年。
+
+`JavaScript` `Chrome Extension` `UI/UX`
+
+</td>
+</tr>
+</table>
 
 ### In Progress
 
