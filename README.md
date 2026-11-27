@@ -125,6 +125,13 @@ Python · 智能算法 · Unity · Blender
 </tr>
 </table>
 
+### 贡献轨迹
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/output/github-snake.svg" alt="Contribution snake" />
+</picture>
+
 ## 联系
 
 <div align="center">
