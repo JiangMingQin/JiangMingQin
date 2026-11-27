@@ -19,57 +19,23 @@ Python · 智能算法 · Unity · Blender
 
 ---
 
-## About
+## 👋 About
 
 主力 Python，写声明式 GUI、浏览器扩展和节点式工作流；用智能算法做图像拟合与排样问题，也用 Unity 和 Blender 做 3D 与程序化生成。
 
 开源了两个自己长期在用的工具：[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter) 和 [CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)。HROF 平台的算法框架论文在审。
 
-## Projects
+## 🧩 Projects
 
-### Open Source
+| 项目 | 说明 | 技术 |
+|:---|:---|:---|
+| **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** <sub>v0.13.0 · MIT</sub> | 基于 CustomTkinter 的声明式 GUI 库。`Row` / `Column` / `ZStack` + `fit` / `fill` 取代手写 `grid` / `pack`；链式 API 配合统一值 API，构建完成后仍可按 `.id()` 定位更新；内置 Catppuccin / Gruvbox / Dracula / EVA02 主题与语义化颜色 token。定位轻量工具与原型，Python ≥ 3.10，Windows / Linux CI 全矩阵 | Python · CustomTkinter · Declarative UI |
+| **[CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)** <sub>v1.2.0 · MIT</sub> | 粗野主义科幻终端风格的浏览器新标签页。起因是发现自己打开浏览器后高频操作是点书签，于是把收藏夹做成界面中心。`WASD` / 方向键层级浏览、`/` 递归实时搜索、**frecency**（频率 × 时间衰减）快捷栏；暗色星空 / 亮色等高线双主题 + 3D 透视。原生 ES Modules，Manifest V3，无构建、无第三方运行时依赖，自用近一年 | JavaScript · Chrome Extension · UI/UX |
+| **Node-based Workflow Engine** <sub>In progress</sub> | 把散落的离散 Python 组件串起来。VueFlow 做节点，NaiveUI 做控件，Python 调度器 + FastAPI 做后端，已能跑通模拟退火。设计上参考 Rust 的强约束与 Go 的简约核心，能力交给外部自定义节点，交互参考 ComfyUI 与 Blender | Vue · VueFlow · FastAPI · NaiveUI |
+| **PS1 Retro Rendering** <sub>Exploration</sub> | 低多边形 + dithering + CRT 后处理 | Unity · Shader Graph |
+| **Course Schedule Crawler** <sub>Discontinued</sub> | Selenium 抓取网页课表、lxml 解析 DOM，纯手写、未依赖 AI；解决部门里收集无课表难的问题。原站点更新后工具已失效 | Python · Selenium · lxml |
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-#### [LazyTkinter](https://github.com/JiangMingQin/LazyTkinter) <sub>v0.13.0 · MIT</sub>
-
-基于 CustomTkinter 的声明式 GUI 库，用 `Row` / `Column` / `ZStack` + `fit` / `fill` 取代手写 `grid` / `pack`，像搭积木一样排界面。
-
-链式 API + 统一值 API：`.id()` 后可在构建完成时通过 `app.config(类型).aim_id(名字)` 继续改属性，`app.read()` 直接读值。内置 Catppuccin / Gruvbox / Dracula / EVA02 主题与语义化颜色 token。
-
-定位是轻量工具与原型——只依赖 CustomTkinter，Python ≥ 3.10，Windows / Linux 全矩阵 CI。
-
-`Python` `CustomTkinter` `Declarative UI`
-
-</td>
-<td width="50%" valign="top">
-
-#### [CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab) <sub>v1.2.0 · MIT</sub>
-
-粗野主义科幻终端风格的浏览器新标签页扩展。起因是发现自己打开浏览器后高频操作是点书签，于是把收藏夹做成界面中心。
-
-WASD / 方向键层级浏览书签，`/` 递归实时搜索，**frecency**（频率 × 时间衰减）排序的快捷栏把常用站点自然顶到前面。双主题（暗色星空 / 亮色等高线）、3D 透视模式，快捷键映射与快捷栏数量可调。
-
-原生 ES Modules，Manifest V3，无构建步骤、无第三方运行时依赖。自己持续用了近一年。
-
-`JavaScript` `Chrome Extension` `UI/UX`
-
-</td>
-</tr>
-</table>
-
-### In Progress
-
-- **Node-based Workflow Engine** <sub>In progress</sub> — 把散落的离散 Python 组件串起来。VueFlow 做节点，NaiveUI 做控件，Python 调度器 + FastAPI 做后端，已能跑通模拟退火。设计上参考 Rust 的强约束与 Go 的简约核心，能力交给外部自定义节点；交互参考 ComfyUI 与 Blender。 `Vue` `VueFlow` `FastAPI` `NaiveUI`
-- **PS1 Retro Rendering** <sub>Exploration</sub> — 低多边形 + dithering + CRT 后处理。
-
-### Discontinued
-
-- **Course Schedule Crawler** <sub>Discontinued</sub> — 用 Selenium 抓取网页课表、lxml 解析 DOM，纯手写、未依赖 AI。解决的真实问题是「部门里收集课表难」——手工填的无课表变成可快速汇总的数据。原站点更新后工具已失效。 `Python` `Selenium` `lxml`
-
-## Algorithms
+## 🧠 Algorithms
 
 ### HROF Platform <sub>Paper under review · Co-first author</sub>
 
@@ -86,7 +52,7 @@ WASD / 方向键层级浏览书签，`/` 递归实时搜索，**frecency**（频
 - **Others** — 粒子群、禁忌搜索、差分进化；能针对问题结构改造算法或搭建框架
 - **Modeling** — 因为数学建模入门智能算法，习惯把实际问题改造成可求解的数学问题
 
-## Tech Stack
+## 🛠 Tech Stack
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=python,cs,js,vue,unity,blender,git,linux,flask&theme=dark" alt="Tech stack" />
@@ -100,15 +66,15 @@ WASD / 方向键层级浏览书签，`/` 递归实时搜索，**frecency**（频
 <sub>AI 辅助开发：能读懂、能判断、能改，不让生成结果成为黑盒。</sub>
 </div>
 
-## Others
+## 🌱 Others
 
-### Unity & 3D
+### 🎮 Unity & 3D
 
 - **Unity**（最熟悉的引擎）— 动画状态机、资产导入、Terrain 地编。做过 FPS（NavMesh 敌人追踪 + 护送目标）、AR 打地鼠（Vuforia）、VR 光剑音游（Pico 头显 + 手柄）三个 demo
 - **Blender** — 材质与贴图流程、人物与建筑建模；会写 `bpy` 脚本做程序化生成和插件，正在还原《绝区零》的以太结晶
 - **C4D** — 材质、简单动画与渲染
 
-### Numbers
+### 📊 Numbers
 
 <table>
 <tr>
@@ -117,7 +83,7 @@ WASD / 方向键层级浏览书签，`/` 递归实时搜索，**frecency**（频
 </tr>
 </table>
 
-### Contact
+### 📫 Contact
 
 <div align="center">
 
