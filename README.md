@@ -1,6 +1,10 @@
-<div align="center">
-  <img src="assets/header.svg" alt="MingQin J" width="100%" />
-</div>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/main/assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/main/assets/header-light.svg" />
+    <img src="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/main/assets/header-light.svg" alt="MingQin J" width="100%" />
+  </picture>
+</p>
 
 <div align="center">
 
