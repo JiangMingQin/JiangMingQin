@@ -12,21 +12,22 @@ Python · Unity · Blender — do what I want
 
 ## 👋 Focus
 
-- **程序化 3D 资产生成**：Blender 复刻《绝区零》以太结晶场景资源
-- **个人工具**：重做浏览器新标签页，以书签为界面中心
-- **AIGC 工作流**：ComfyUI 文生图 / 图生图工作流实践
+- **程序化3D资产生成：** Blender复刻《绝区零》以太结晶场景资源
+- **个人工具实现：** 全新的浏览器新标签页
+- **AIGC工作流编排：** ComfyUI生图工作流搭建
 
 ## 🧩 Projects
 
 | 项目 | 说明 | 技术 |
 |:---|:---|:---|
 | **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** <sub>v0.13.0 · MIT</sub> | 基于 CustomTkinter 的声明式 GUI 库。链式语法让控件属性直接出现在代码补全里，以减少反复查阅文档。 | Python · CustomTkinter · Declarative UI |
-| **[CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)** <sub>v1.2.0 · MIT</sub> | 粗野主义科幻终端风格的浏览器新标签页，以书签为界面中心。原生 ES Modules，Manifest V3，无构建、无第三方运行时依赖 | JavaScript · Chrome Extension · UI/UX |
+| **[CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)** <sub>v1.2.0 · MIT</sub> | 科幻终端风格的浏览器新标签页。原生 ES Modules，Manifest V3，无构建、无第三方运行时依赖 | JavaScript · Chrome Extension · UI/UX |
 | **Workflow Engine** <sub>In progress</sub> | 节点式工作流界面。设计上参考 Rust 的强约束与 Go 的简约核心，能力交给外部自定义节点，交互灵感源自 ComfyUI 与 Blender | Python · VueFlow · FastAPI · NaiveUI |
+
 
 ## 🧠 Algorithms
 
-**HROF 平台** <sub>论文审稿中 · 共同第一作者</sub> — 我提出的算法无关拟合框架，在有限三角形叠加拟合图像上取得优于已公开基线的结果。源码暂不公开。
+敬请期待
 
 ## 🛠 Tech Stack
 
@@ -37,6 +38,7 @@ Python · Unity · Blender — do what I want
 <div align="center">
 <sub>NumPy · PySide · CustomTkinter · DrissionPage · selenium · FastAPI · VueFlow · ComfyUI · C4D · Vim / Helix</sub>
 </div>
+
 
 ## 🌱 Others
 
