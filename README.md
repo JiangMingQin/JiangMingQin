@@ -32,7 +32,7 @@ Python · Unity · Blender — do what I want
 ## 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cs,js,vue,unity,blender,linux,comfyui&theme=dark" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,cs,js,vue,unity,blender,linux,flask&theme=dark" alt="Tech stack" />
 </div>
 
 <div align="center">
