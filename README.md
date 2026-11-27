@@ -1,6 +1,12 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/main/assets/header-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/main/assets/header-light.svg" />
+    <img src="assets/header-light.svg" alt="MingQin J" width="100%" />
+  </picture>
+</p>
 
-<h1>MingQin J</h1>
+<div align="center">
 
 Python · Unity · Blender — do what I want
 
