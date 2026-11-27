@@ -20,7 +20,7 @@ Python · Unity · Blender — do what I want
 
 | 项目 | 说明 | 技术 |
 |:---|:---|:---|
-| **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** <sub>v0.13.0 · MIT</sub> | 基于 CustomTkinter 的声明式 GUI 库。链式语法让控件属性直接出现在代码补全里，以减少反复查阅文档。 | Python · CustomTkinter · Declarative UI |
+| **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** <sub>v0.13.0 · MIT</sub> | 基于 CustomTkinter 的声明式 GUI 库。链式语法让控件属性直接出现在代码补全里，以减少反复查阅文档 | Python · CustomTkinter · Declarative UI |
 | **[CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)** <sub>v1.2.0 · MIT</sub> | 科幻终端风格的浏览器新标签页。原生 ES Modules，Manifest V3，无构建、无第三方运行时依赖 | JavaScript · Chrome Extension · UI/UX |
 | **Workflow Engine** <sub>In progress</sub> | 节点式工作流界面。设计上参考 Rust 的强约束与 Go 的简约核心，能力交给外部自定义节点，交互灵感源自 ComfyUI 与 Blender | Python · VueFlow · FastAPI · NaiveUI |
 
@@ -32,7 +32,7 @@ Python · Unity · Blender — do what I want
 ## 🛠 Tech Stack
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,cs,js,vue,unity,blender,git,linux,flask&theme=dark" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=python,cs,js,vue,unity,blender,linux,flask&theme=dark" alt="Tech stack" />
 </div>
 
 <div align="center">
