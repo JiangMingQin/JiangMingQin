@@ -1,12 +1,16 @@
-<div align="center">  
-  <img src="https://capsule-render.vercel.app/api?type=waving\&color=0:1e1e2e,100:45475a\&height=170\&section=header\&text=MingQin%20J\&fontSize=52\&fontColor=cdd6f4\&animation=fadeIn" alt="MingQin J" />  
-</div>
+<p align="center">  
+  <picture>  
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/main/assets/header-dark.svg" />  
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JiangMingQin/JiangMingQin/main/assets/header-light.svg" />  
+    <img src="assets/header-light.svg" alt="MingQin J" width="100%" />  
+  </picture>  
+</p>
 
 <div align="center">
 
 **写让美术和程序少吵架的工具。**
 
-Unity · Python · Blender · ComfyUI
+Python · 智能算法 · Unity · Blender
 
 ![Open to work](https://img.shields.io/badge/%E6%B1%82%E8%81%8C%E4%B8%AD-OPEN%20TO%20WORK-a6e3a1?style=flat-square\&labelColor=1e1e2e)
 
@@ -14,67 +18,66 @@ Unity · Python · Blender · ComfyUI
 
 ---
 
-## 做过的东西
+## About
 
-<table>  
-<tr>  
-<td width="50%" valign="top">
+主力 Python，写声明式 GUI、浏览器扩展和节点式工作流；用智能算法做图像拟合与排样问题，也用 Unity 和 Blender 做 3D 与程序化生成。
 
-#### [LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)
+开源了两个自己长期在用的工具：[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter) 和 [CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)。HROF 平台的算法框架论文在审。
 
-声明式 Python GUI 框架。针对 CustomTkinter 写复杂界面时代码松散、状态分散的问题，设计链式声明语法，把界面结构、样式与事件绑定压进单一表达式。
+## Projects
 
-`Python` `CustomTkinter` `MIT`
+### Open Source
 
-</td>  
-<td width="50%" valign="top">
+- **[LazyTkinter](https://github.com/JiangMingQin/LazyTkinter)** — 基于 CustomTkinter 的声明式封装。链式语法让控件属性直接出现在代码补全里，省掉反复翻文档；纵横容器借鉴 Web 的 flex 布局思路。先手搓原型，再交给 AI 改。 `Python` `CustomTkinter` `MIT`
+- **[CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)** — 从自己的高频行为出发：打开浏览器后最常做的是点书签，于是把收藏夹做成界面中心，去掉搜索栏。双栏布局 + 键盘导航 + 模糊搜索；用 **frecency 算法**做快速启动栏，常用站点自然浮现。自己持续用了近一年。 `JavaScript` `Chrome Extension` `UI/UX`
 
-#### [CH3-Orange-Tab](https://github.com/JiangMingQin/CH3-Orange-Tab)
+### In Progress
 
-浏览器新标签页扩展。重构信息架构，去掉搜索栏；左手轮盘导航（WASD / 鼠标双模），右手收藏夹与浏览器原生数据实时同步。
+- **Node-based Workflow Engine** <sub>In progress</sub> — 把散落的离散 Python 组件串起来。VueFlow 做节点，NaiveUI 做控件，Python 调度器 + FastAPI 做后端，已能跑通模拟退火。设计上参考 Rust 的强约束与 Go 的简约核心，能力交给外部自定义节点；交互参考 ComfyUI 与 Blender。 `Vue` `VueFlow` `FastAPI` `NaiveUI`
+- **PS1 Retro Rendering** <sub>Exploration</sub> — 低多边形 + dithering + CRT 后处理。
 
-`Chrome Extension` `JavaScript` `UI/UX`
+### Discontinued
 
-</td>  
-</tr>  
-<tr>  
-<td width="50%" valign="top">
+- **Course Schedule Crawler** <sub>Discontinued</sub> — 用 Selenium 抓取网页课表、lxml 解析 DOM，纯手写、未依赖 AI。解决的真实问题是「部门里收集课表难」——手工填的无课表变成可快速汇总的数据。原站点更新后工具已失效。 `Python` `Selenium` `lxml`
 
-#### 节点式工作流引擎 <sub>开发中</sub>
+## Algorithms
 
-把「改代码跑脚本」变成「连节点看结果」。前后端分离，算法模块按问题类型热插拔，收敛曲线同屏对比。
+### HROF Platform <sub>Paper under review · Co-first author</sub>
 
-`Vue` `NaiveUI` `ECharts` `FastAPI`
+我提出的算法无关拟合框架，可在遗传算法与差分进化之间切换；配套 PySide 软件实现「边拟合边手动修改」的风格化图像工作流。
 
-</td>  
-<td width="50%" valign="top">
+在有限三角形叠加拟合图像问题上取得优于已公开基线的结果（单核条件，数据以论文为准）。源码暂不公开。
 
-#### Unity 地编与资产流程
+`Python` `NumPy` `PySide` `DE / GA`
 
-Blender → Unity 的完整资产链路：Terrain 搭自然场景，FBX 参数与 UV 适配，PBR 材质复用。另含 FPS 敌人 AI（NavMesh / 状态机 / 对象池）与塔防原型。
+### More
 
-`Unity` `C#` `Terrain` `Blender`
+- **Simulated Annealing** — 熟悉流程与改进方向：与遗传算法 / 禁忌搜索混合、UCB 算子选择、自适应内循环次数、早停。解过中小规模 TSP、矩形件排样与连续非线性问题
+- **Genetic Algorithm** — 熟悉流程与调参原理；GA + 贪心解 01 背包
+- **Others** — 粒子群、禁忌搜索、差分进化；能针对问题结构改造算法或搭建框架
+- **Modeling** — 因为数学建模入门智能算法，习惯把实际问题改造成可求解的数学问题
 
-</td>  
-</tr>  
-</table>
-
-## 现在在做什么
-
-- **节点式工作流引擎** — 打通问题类型与策略模块的联动，补历史记录与预设管理
-- **毕业设计：PS1 复古渲染管线** — 低多边形 + dithering + CRT 后处理，用 Unity Shader Graph 复刻
-- **补渲染与 Shader** — HLSL 基础、Profiler / RenderDoc 排障
-
-## 技术栈
+## Tech Stack
 
 <div align="center">  
-  <img src="https://skillicons.dev/icons?i=python,cs,js,vue,unity,blender,godot,git,linux,flask,redis\&theme=dark" alt="Tech stack" />  
+  <img src="https://skillicons.dev/icons?i=python,cs,js,vue,unity,blender,git,linux,flask\&theme=dark" alt="Tech stack" />  
 </div>
 
-<div align="center">   <sub>Linux（Debian） · FastAPI · Redis · Vim / Helix · ComfyUI · SD WebUI · ControlNet</sub>  
+<div align="center">   <sub>NumPy · PySide · CustomTkinter · DrissionPage · selenium · FastAPI · VueFlow · ComfyUI · C4D · Vim / Helix</sub>  
 </div>
 
-## 一点数据
+<div align="center">   <sub>AI 辅助开发：能读懂、能判断、能改，不让生成结果成为黑盒。</sub>  
+</div>
+
+## Others
+
+### Unity & 3D
+
+- **Unity**（最熟悉的引擎）— 动画状态机、资产导入、Terrain 地编。做过 FPS（NavMesh 敌人追踪 + 护送目标）、AR 打地鼠（Vuforia）、VR 光剑音游（Pico 头显 + 手柄）三个 demo
+- **Blender** — 材质与贴图流程、人物与建筑建模；会写 `bpy` 脚本做程序化生成和插件，正在还原《绝区零》的以太结晶
+- **C4D** — 材质、简单动画与渲染
+
+### Numbers
 
 <table>  
 <tr>  
@@ -83,14 +86,14 @@ Blender → Unity 的完整资产链路：Terrain 搭自然场景，FBX 参数�
 </tr>  
 </table>
 
-## 联系
+### Contact
 
 <div align="center">
 
 <a href="mailto:3315536229@qq.com"><img src="https://img.shields.io/badge/3315536229%40qq.com-cba6f7?style=flat-square\&labelColor=1e1e2e\&logo=maildotru\&logoColor=white" alt="Email" /></a>  
-<a href="https://jiangmingqin.github.io/"><img src="https://img.shields.io/badge/%E4%BD%9C%E5%93%81%E9%9B%86-jiangmingqin.github.io-a6e3a1?style=flat-square\&labelColor=1e1e2e\&logo=githubpages\&logoColor=white" alt="Portfolio" /></a>  
+<a href="https://jiangmingqin.github.io/"><img src="https://img.shields.io/badge/%E4%BD%9C%E5%93%81-jiangmingqin.github.io-a6e3a1?style=flat-square\&labelColor=1e1e2e\&logo=githubpages\&logoColor=white" alt="Portfolio" /></a>  
 <a href="https://github.com/JiangMingQin"><img src="https://img.shields.io/badge/GitHub-JiangMingQin-cdd6f4?style=flat-square\&labelColor=1e1e2e\&logo=github\&logoColor=white" alt="GitHub" /></a>
 
-<sub>欢迎聊技术美术、工具开发，或者独立游戏。</sub>
+<sub>欢迎聊技术美术、工具开发、智能算法，或者独立游戏。</sub>
 
 </div>
